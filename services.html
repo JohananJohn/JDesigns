@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J Designs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+            
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Services</h1>
+
+</section>
+
+<!-------- Content --------->
+
+<section class="facilities">
+    <h1>Services</h1>
+    <p>The facilities I am able to offer to my customers would be:</p>
+
+    <div class="row">
+        <div class="facilties-column">
+            <img src="images/web-design.jpg">
+            <h3>Website Designing</h3>
+            <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to 
+                the user experience aspects of website development rather than software development.</p>
+        </div>
+        <div class="facilties-column">
+            <img src="images/webpage-making.jpg">
+            <h3>Webpage Making</h3>
+            <p>Webpage Making refers to the creating of a webpage from scratch. To create a new website, the person
+                has to have knowledge of what he/she is making.
+            </p>
+        </div>
+        <div class="facilties-column">
+            <img src="images/wordpress.png">
+            <h3>Wordpress</h3>
+            <p>WordPress is a free and open-source content management system written in PHP and paired with a MySQL 
+                or MariaDB database.</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="qualification">
+    <h1>Qualification</h1>
+    <p>My quallifications I have earned as of now are as below:</p>
+
+    <div class="row">
+        <div class="qualification-column">
+            <h3>12th Standard Pass<h3>
+            <p>I have passed my 12th Standard from Vasant Valley School with a percentage of 73%.</p>
+        
+        </div>
+        <div class="qualification-column">
+            <h3>Bachelor's Degree</h3>
+            <p>I have earned my Bachelor's Degree in Vocational Studies from the college of Integrated Institute of
+                Technology, which comes under the Guru Gobind Indraprastha University.
+            </p>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="skills">
+    <h1>Skills</h1>
+    <p>The amount of skill I have in the languages are:</p>
+
+    <p>HTML</p>
+    <div class="container">
+        <div class="html">90%</div>
+    </div>
+
+    <p>CSS</p>
+    <div class="container">
+        <div class="css">80%</div>
+    </div>
+
+    <p>JavaScript</p>
+    <div class="container">
+        <div class="js">65%</div>
+    </div>
+
+    <p>PHP</p>
+    <div class="container">
+        <div class="php">60%</div>
+    </div>
+
+</section>
+
+<!------- Footer ------->
+
+<section class="footer">
+    <img src="images/logo.png">
+    <p>Copyright © 2021 J Designs, Ltd.<br>TERMS & CONDITIONS | PRIVACY | LEGAL NOTICE</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Developed & Built By Johanan John</p>
+</section>
+
+
+<!-------JavaScript for Menu------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

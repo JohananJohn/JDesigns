@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J Designs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+            
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Contact</h1>
+
+</section>
+
+<!-------- Content --------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.66257518198!2d76.8493182757803!3d28.
+    423187472686475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2s
+    Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1626449946603!5m2!1sen!2sin" width="600" height="450" style="border:0;"
+     allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-me">
+
+    <div class="row">
+        <div class="contact-column">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>J Designs, ABC Building</h5>
+                    <p>Gurugram, Haryana, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9315203345</h5>
+                    <p>Monday To Friday, 10AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@jdesigns.com</h5>
+                    <p>Email me for more information</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-column">
+            
+            <form action="form-requests.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="button btn">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+<!------- Footer ------->
+
+<section class="footer">
+    <img src="images/logo.png">
+    <p>Copyright © 2021 J Designs, Ltd.<br>TERMS & CONDITIONS | PRIVACY | LEGAL NOTICE</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Developed & Built By Johanan John</p>
+</section>
+
+
+<!-------JavaScript for Menu------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

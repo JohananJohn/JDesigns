@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J Designs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1 >Website Designer</h1>
+        <p>I am a Website Designer, so if anyone wants to contact me <br> for creating a website can
+            message or contact me
+        </p>
+        <a href="contact.html" class="button">Right Here</a>
+    </div>
+
+    </section>
+
+<!------Languages------>
+
+<section class="languages">
+    <h1>Languages</h1>
+    <p id="para1">The languages that i have learnt and have experience to are:</p>
+
+    <div class="row">
+        <div class="languages-column">
+            <h3>C++</h3>
+            <p>C++ is one of the world's most popular programming languages. C++ can be found in today's 
+                operating systems, Graphical User Interfaces, and embedded systems.</p>
+            <img src="images/c++.png">
+
+        </div>
+        <div class="languages-column">
+            <h3>Java</h3>
+            <p>Java is a powerful general-purpose programming language. It is used to develop desktop and 
+                mobile applications, big data processing, embedded systems, and so on.</p>
+            <img src="images/java.png">
+                
+        </div>
+        <div class="languages-column">
+            <h3>Python</h3>
+            <p>Python is an open-source (free) programming language that is used in web programming, data 
+                science, artificial intelligence, and many scientific applications.</p>
+                <img src="images/python.png">
+                
+        </div>
+    </div>
+
+
+</section>
+
+<!------ Facilites ------>
+
+<section class="facilities">
+    <h1>Facilites</h1>
+    <p>The facilities I am able to offer to my customers would be:</p>
+
+    <div class="row">
+        <div class="facilties-column">
+            <img src="images/web-design.jpg">
+            <h3>Website Designing</h3>
+            <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to 
+                the user experience aspects of website development rather than software development.</p>
+        </div>
+        <div class="facilties-column">
+            <img src="images/webpage-making.jpg">
+            <h3>Webpage Making</h3>
+            <p>Webpage Making refers to the creating of a webpage from scratch. To create a new website, the person
+                has to have knowledge of what he/she is making.
+            </p>
+        </div>
+        <div class="facilties-column">
+            <img src="images/wordpress.png">
+            <h3>Wordpress</h3>
+            <p>WordPress is a free and open-source content management system written in PHP and paired with a MySQL 
+                or MariaDB database.</p>
+        </div>
+    </div>
+
+</section>
+
+<!------- Testimonials -------->
+
+<section class="testimonials">
+    <h1>What My Clients Say</h1>
+    <p>Their opinion on the services I provided for them are as follows:</p>
+
+    <div class="row">
+        <div class="testimonials-column">
+            <img src="images/user1.jpg">
+            <div>
+                <p>
+                    I love the services I have been provided in such a low price and I am very happy with the
+                    finished website design that has been made for me.
+                </p>
+                <h3>John Harley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-column">
+            <img src="images/user2,jpg.jpg">
+            <div>
+                <p>
+                    I am happy with the services i am getting through this website and will definetely use it again
+                    in the future. Deserves high rating and atleast 4 stars.
+                </p>
+                <h3>Mark Anthony</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!------ CTA ------->
+
+<section class="cta">
+    <h1>Connect with me as a true Web Developer.<br>For more information, click below.</h1>
+    <a href="contact.html" class="button">CONTACT ME</a>
+
+</section>
+
+<!------- Footer ------->
+
+<section class="footer">
+    <img src="images/logo.png">
+    <p>Copyright © 2021 J Designs, Ltd.<br>TERMS & CONDITIONS | PRIVACY | LEGAL NOTICE</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Developed & Built By Johanan John</p>
+</section>
+
+
+<!-------JavaScript for Menu------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
